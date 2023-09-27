@@ -246,6 +246,7 @@ body {
     background-color: #007BFF;
     color: white;
     border-radius: 20px;
+    border:none;
     padding: 10px 20px;
     text-align: center;
     text-decoration: none;
@@ -261,10 +262,11 @@ body {
 
 .blue-button img.button-icon {
     margin-right: 5px;
-    height: 20px;
+    height: 15px;
     width: auto;
     align-self: center;
     margin-bottom: 0.5px;
+    filter: brightness(0) invert(1);
 }
 
 /* === FOOTER === */
@@ -322,15 +324,23 @@ footer {
     height: auto;
 }
 
+.mini-logo2{
+    width: 15px;
+    height: auto;
+    filter: brightness(0) invert(1);
+
+}
+
 .social-section {
     display: flex;
     gap: 10px;
 }
 
 .social-icon {
-    width: 25px;
+    width: 20px;
     height: auto;
     filter: brightness(0) invert(1);
+    margin-right: 5%;
 }
 
 .footer-list-title {
