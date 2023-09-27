@@ -1,0 +1,376 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* === HEADER === */
+
+.header-top {
+    background-color: rgb(0, 96, 232);
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 15%;
+}
+
+.info-bar {
+    display: flex;
+    height: 40px;
+    background-color: transparent;
+    width: 95%;
+    justify-content: space-between;
+}
+
+.logo {
+    background-color: transparent;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 12%;
+}
+
+.menu {
+    background-color: transparent;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-grow: 2;
+}
+
+.menu-link {
+    color: white;
+    margin: 0 10px;
+}
+
+.menu-link:hover {
+    text-decoration: underline;
+}
+
+.details {
+    background-color: transparent;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 12%;
+}
+
+.access-button {
+    padding: 5px 15px;
+    border-radius: 15px;
+    background-color: white;
+    color: black;
+    border: none;
+    cursor: pointer;
+}
+
+.header-bottom {
+    background-image: url('../img/jumbo.png');
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.inner-box {
+    max-width: 80%;
+    height: auto;
+    min-height: 50px;
+    padding: 10px;
+    white-space: normal;
+    word-break: break-word;
+    text-align: justify;
+    margin-top: -190px;
+}
+
+.inner-box h1 {
+    font-size: 2.5em;
+    margin-bottom: 80px;
+    text-align: center;
+}
+
+.inner-box p {
+    font-size: 1.2em;
+}
+
+.white-button {
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 100px;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.white-button:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.black-button {
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.black-button:hover {
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+}
+
+.button-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+/* === MAIN === */
+
+.main {
+    margin-top: 3%;
+}
+
+.block {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+    min-height: 400px;
+}
+
+.white {
+    background-color: white;
+}
+
+.gray {
+    background-color: rgb(231, 231, 231);
+}
+
+.split-box, .split-box-reversed {
+    display: flex;
+    width: 60%;
+    align-items: center;
+}
+
+.box-large img {
+    width: 105%;
+    height: auto;
+}
+
+.box-small {
+    background-color: transparent;
+    padding: 20px;
+}
+
+.grassetto {
+    font-weight: bold;
+    font-size: 27px;
+    margin-bottom: 20px;
+}
+
+.box-small p {
+    margin: 0;
+}
+
+.full-box {
+    width: 60%;
+    height: auto;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    gap: 20px;
+}
+
+.background-section {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    background-image: url('..img/stars.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.background-section .grassetto {
+    white-space: nowrap;
+    font-size: 25px;
+}
+
+.button-section {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.button-section:hover {
+    background-color: #555;
+}
+
+.full-box > p {
+    margin-bottom: 0%;
+}
+
+.full-box img {
+    margin-bottom: -20px;
+}
+
+.blue-button {
+    background-color: #007BFF;
+    color: white;
+    border-radius: 20px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    margin-right: 10px;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.blue-button:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.blue-button img.button-icon {
+    margin-right: 5px;
+    height: 20px;
+    width: auto;
+    align-self: center;
+    margin-bottom: 0.5px;
+}
+
+/* === FOOTER === */
+
+footer {
+    background-color: #2E2E2E;
+    padding: 40px 0;
+}
+
+.footer-boxes {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    gap: 20px;
+}
+
+.footer-left, .footer-col {
+    height: auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer-left {
+    flex: 1;
+    background-color: transparent;
+}
+
+.footer-col {
+    flex: 1;
+}
+
+.footer-left h1 {
+    color: white;
+    font-size: 24px;
+}
+
+.footer-left h1 {
+    color: rgb(49, 149, 215);
+}
+
+.footer-left span {
+    color: white;
+}
+
+.logo-section {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.mini-logo {
+    width: 40px;
+    height: auto;
+}
+
+.social-section {
+    display: flex;
+    gap: 10px;
+}
+
+.social-icon {
+    width: 25px;
+    height: auto;
+    filter: brightness(0) invert(1);
+}
+
+.footer-list-title {
+    color: rgb(49, 149, 215);
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    list-style-type: none;
+}
+
+.footer-list li {
+    color: white;
+    margin-bottom: 5px;
+    list-style-type: none;
+}
+
+.banner {
+    background-color: transparent;
+    height: 70px;
+    width: 80%;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5%;
+}
+
+.logo-left {
+    width: auto;
+    height: 30px;
+}
+
+.btn-right {
+    padding: 10px 20px;
+    background-color: rgb(49, 149, 215);
+    border: none;
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+
